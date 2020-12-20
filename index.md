@@ -1,6 +1,6 @@
 ## Welcome
 
-Hello! I'm Benjamin Savoy. I'm a Software Engineer by day and I cultivate a few interests in my free time, mainly photography.
+Hello! I'm Benjamin Savoy. I'm a Software Engineer by day and I cultivate a few interests in my free time, but mainly photography.
 
 Until I feel the need to go and develop a fully-featured personal website, if you would like to follow what I am doing, please have a look at those few pages:
 
