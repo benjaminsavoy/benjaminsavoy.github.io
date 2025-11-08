@@ -215,12 +215,6 @@ section {
     border-radius: var(--border-radius);
     display: block;
     box-shadow: 0 20px 60px rgba(91, 111, 204, 0.15);
-    transition: var(--transition);
-}
-
-.about-image img:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 25px 70px rgba(91, 111, 204, 0.2);
 }
 
 /* ===========================
@@ -279,11 +273,6 @@ section {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: var(--transition);
-}
-
-.photo-item:hover img {
-    transform: scale(1.05);
 }
 
 .photo-item::after {
