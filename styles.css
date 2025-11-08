@@ -18,9 +18,9 @@
 
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
-    --spacing-md: 2rem;
-    --spacing-lg: 4rem;
-    --spacing-xl: 6rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2.5rem;
+    --spacing-xl: 3.5rem;
 
     --border-radius: 12px;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -120,7 +120,7 @@ section {
    Hero Section
    =========================== */
 .hero {
-    min-height: 85vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,14 +147,7 @@ section {
 
 .hero h1 {
     margin-bottom: var(--spacing-sm);
-    background: linear-gradient(
-        135deg,
-        var(--text-dark) 0%,
-        var(--blueberry) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text-dark);
 }
 
 .tagline {
@@ -397,12 +390,12 @@ footer p {
    =========================== */
 @media (max-width: 768px) {
     :root {
-        --spacing-lg: 3rem;
-        --spacing-xl: 4rem;
+        --spacing-lg: 2rem;
+        --spacing-xl: 3rem;
     }
 
     .hero {
-        min-height: 70vh;
+        min-height: 50vh;
     }
 
     .about-image::before {
