@@ -286,8 +286,6 @@ section {
 }
 
 .cta-link {
-    display: inline-block;
-    margin: 0 auto;
     padding: var(--spacing-sm) var(--spacing-md);
     background: var(--blueberry);
     color: var(--white);
